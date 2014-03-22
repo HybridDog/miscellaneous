@@ -26,7 +26,7 @@ minetest.register_globalstep(function()
 	for _,player in ipairs(minetest.get_connected_players()) do
 		local playername = player:get_player_name()
 		local pos = chunkcorner(player:getpos())
-		local oldpos = oldps[playername] or vector.zero
+		local oldpos = oldps[playername] or {x=0, y=0, z=0}
 		if not vector.equals(pos, oldpos) then
 			oldps[playername] = pos
 			for _,func in ipairs(registered_chunkloads) do
