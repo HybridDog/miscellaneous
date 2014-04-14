@@ -69,13 +69,22 @@ minetest.register_node("ac:wmg", {
 	groups = {snappy=1,bendy=2,cracky=1},
 	sounds = default_stone_sounds,
 	on_construct = function(pos)
-		for _,p in ipairs(weird_noise(vector.chunkcorner(pos), pymg, 20, 8)) do
+		local minp = vector.chunkcorner(pos)
+		for _,p in ipairs(weird_noise(minp, pymg, 20, 8)) do
 			local p2 = {x=p.x, y=p.y+1, z=p.z}
-			if minetest.get_node(p).name ~= "default:desert_stone" then
-				minetest.set_node(p, {name="default:desert_stone"})
-			end
-			if minetest.get_node(p2).name ~= "default:desert_sand" then
-				minetest.set_node(p2, {name="default:desert_sand"})
+			if p.y <= minp.y+7 then
+				local p2 = {x=p.x, y=minp.y+6, z=p.z}
+				local p3 = {x=p.x, y=p2.y+1, z=p.z}
+				if minetest.get_node(p2).name ~= "default:desert_stone" then
+					minetest.set_node(p2, {name="default:desert_stone"})
+				end
+				if minetest.get_node(p3).name ~= "default:desert_sand" then
+					minetest.set_node(p3, {name="default:desert_sand"})
+				end
+			else
+				if minetest.get_node(p).name ~= "default:desert_stone" then
+					minetest.set_node(p, {name="default:desert_stone"})
+				end
 			end
 		end
 	end,
