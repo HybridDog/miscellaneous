@@ -1,5 +1,9 @@
 --net_noise v1
 
+local function get_random(a, b, seed)
+	return PseudoRandom(math.abs(a+b*5)+seed)
+end
+
 local function olo(p, s)
 	return {x=p.x-p.x%s, y=p.y-p.y%s, z=p.z-p.z%s}
 end
