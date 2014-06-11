@@ -5,5 +5,4 @@
 — Schatten überarbeiten
 — pyripat mapgen
 — 30015
-— "basalt_noise"
 — texture packs erneuern
