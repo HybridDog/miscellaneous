@@ -1,8 +1,8 @@
 — wz2100 mod
 — waffen mod
 — mario mod mit on_globalstep
-— Tränke
 — Schatten überarbeiten
 — pyripat mapgen
 — 30015
 — texture packs erneuern
+— http://registry.gimp.org/node/27763
