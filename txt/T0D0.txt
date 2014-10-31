@@ -1,7 +1,6 @@
 — wz2100 mod
 — waffen mod
 — mario mod mit on_globalstep
-— Schatten überarbeiten
 — texture packs erneuern
 — "quests" mod
 — simple_machines weiter machen
@@ -9,3 +8,6 @@
 — http://registry.gimp.org/node/27763
 — sloantothebone über treecapitator informieren
 — 30015
+— cos fürs "hnoise"
+— gold_and_gem compatibility
+— joshapm02 bei markveidemanis server entbannen lassen
