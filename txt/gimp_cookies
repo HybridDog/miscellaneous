@@ -1,0 +1,32 @@
+new size:100x100
+plastisch_rausch detail:15 random:true
+normalize
+
+new_ebene size:100x100 above:original schoko
+plastisch_rausch detail:15 random:true schoko
+normalize schoko
+color_to_transparency ffffff schoko
+alpha_treshold 95 schoko
+werte middle:4 schoko
+lock_alpha schoko
+paste_colour brown schoko
+unlock_alpha schoko
+rauschen:hsv schoko
+rauschen:spread schoko
+
+colour_to_transparency ffffff
+new_ebene size:100x100 under:original teig1
+paste_colour brightbrown teig1
+lock_alpha
+paste_colour midbrown
+
+bild_zusammenfügen
+copy
+
+abbilden:object sphere transparent_bg:true ausrichtung:z:0,9
+duplicate sphere
+lock_alpha duplicated_sphere
+paste_pattern zwischenablage duplicated_sphere
+rm original_ebene
+
+be sad because this crap here

@@ -1,0 +1,47 @@
+cd workspace/miscellaneous
+if git status | grep -q "nichts zu committen"
+then :
+else
+	git add -A
+	git commit -m 'automatic update'
+	git push
+fi
+cd ../..
+
+cd textures/server
+if git status | grep -q "nichts zu committen"
+then :
+else
+	git add -A
+	git commit -m 'automatic update'
+	git push
+fi
+cd ../..
+
+cd mods
+
+for name in hydro minetest-nether vines BobBlocks sumpf diamonds sea dogblocks; do
+	cd $name
+	if git status | grep -q "nichts zu committen"
+	then :
+	else
+		git add -A
+		git commit -m 'automatic update'
+		git push
+	fi
+	cd ..
+done
+
+cd hmods
+
+for name in home_builder nodebox_creator laser nuke superpick lavacooling nyanland portal trashcan connected_chests riesenpilz treecapitator connected_textures rotten_papyrus vector_extras extrablocks shadows grass moreladders simple_machines vulkane small_paths extinguisher rulesaccept titanium moss; do
+	cd $name
+	if git status | grep -q "nichts zu committen"
+	then :
+	else
+		git add -A
+		git commit -m 'automatic update'
+		git push
+	fi
+	cd ..
+done
