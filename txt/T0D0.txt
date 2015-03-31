@@ -3,10 +3,7 @@
 — mario mod mit on_globalstep
 — texture packs erneuern
 — "quests" mod
-— simple_machines weiter machen
 — sea modpack
 — http://registry.gimp.org/node/27763
 — 30015
 — gold_and_gem compatibility
-— joshapm02 bei markveidemanis server entbannen lassen
-— digiline mod installieren
