@@ -7,7 +7,7 @@
 
 ---indentation (default is tab but it can be any number of
 --spaces or tabs or even other strings
-INDENTATION="t"
+INDENTATION=""
 
 ---Checks if a string starts with another one (phrase)
 --@param phrase the other string that is supposedly at the end of the string
