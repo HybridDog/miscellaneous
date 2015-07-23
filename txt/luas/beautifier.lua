@@ -1,3 +1,5 @@
+-- See https://github.com/HybridDog/miscellaneous/tree/master/txt/luas
+
 ---This program reads a lua source code and formats it
 --input file is given as the only argument and the output is written
 --to stdout by default (shown on screen) which can easily be directed
