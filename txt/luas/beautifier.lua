@@ -1,3 +1,4 @@
+-- recently modified by beautifier.lua
 -- See https://github.com/HybridDog/miscellaneous/tree/master/txt/luas
 
 ---This program reads a lua source code and formats it
@@ -91,26 +92,26 @@ while true do
 	line=trim(line)
 	--do the processing
 	if
-	   line:startsWith("function") or
-	   line:startsWith("repeat") or
-	   line:startsWith("while") or
-	   line:endsWith("then") or
-	   line:endsWith("do") or
-	   line:endsWith("{") then
+	line:startsWith("function") or
+	line:startsWith("repeat") or
+	line:startsWith("while") or
+	line:endsWith("then") or
+	line:endsWith("do") or
+	line:endsWith("{") then
 		nextIndent=currIndent+1
 	end
 
 	if
-	  line=="end" or
-	  line=="}" or
-	  line:startsWith("until") then
+	line=="end" or
+	line=="}" or
+	line:startsWith("until") then
 		currIndent=currIndent-1
 		nextIndent=currIndent
 	end
 
 	if
-	  line:startsWith("else") or
-	  line:startsWith("elseif") then
+	line:startsWith("else") or
+	line:startsWith("elseif") then
 		currIndent=currIndent-1
 		nextIndent=currIndent+1
 	end
