@@ -9,7 +9,7 @@
 
 ---indentation (default is tab but it can be any number of
 --spaces or tabs or even other strings
-INDENTATION=""
+INDENTATION="\t"
 
 ---Checks if a string starts with another one (phrase)
 --@param phrase the other string that is supposedly at the end of the string
@@ -48,7 +48,7 @@ function trim(st)
 		didSomething=true
 		st=st:sub(e+1)
 	end
-	s,e=st:find("^t+")
+	s,e=st:find("^\t+")
 	if s~=nil then
 		didSomething=true
 		st=st:sub(e+1)
@@ -59,7 +59,7 @@ function trim(st)
 		didSomething=true
 		st=st:sub(1,s-1)
 	end
-	s,e=st:find("t+$")
+	s,e=st:find("\t+$")
 	if s~=nil then
 		didSomething=true
 		st=st:sub(1,s-1)
