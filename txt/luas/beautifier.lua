@@ -78,7 +78,7 @@ if not file then
 	print "file doesn't exist"
 	return
 else
-	print "reading file"
+	print "-- recently modified by beautifier.lua"
 end
 
 ---indentation for the current line
