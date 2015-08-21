@@ -11,6 +11,7 @@ textures_path=${mctp_path}/assets/minecraft/textures
 
 if [ ! -d $textures_path ]; then :
 	echo "error: the textures folder at $textures_path seems to be missing"
+	# aborts if texture pack is not available
 	exit
 fi
 
