@@ -1,6 +1,4 @@
-— wz2100 mod
 — waffen mod
-— mario mod mit on_globalstep
 — texture packs erneuern
 — "quests" mod
 — sea modpack
@@ -8,4 +6,4 @@
 — 30015
 — gold_and_gem compatibility
 — nicknames mit farben mod
-— stargate ringtransporter
+— env_meta.txt muss "backup"
