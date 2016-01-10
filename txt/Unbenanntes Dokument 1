@@ -36,3 +36,4 @@ minetest.register_abm({
 
 --for i in */; do cd ./${i} ; if ls | grep -q textures; then :; cd textures; optipng -o7 *g; advpng -z -4 *g; cd ..; fi  ; cd .. ; done
 
+http://askubuntu.com/questions/7240/how-do-i-play-swf-files
