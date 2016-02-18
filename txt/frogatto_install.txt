@@ -1,0 +1,13 @@
+Ubuntu, so look there: https://github.com/frogatto/frogatto/wiki/Compiling-Frogatto-on-Debian
+
+clone anura and frogatto (takes long),
+put frogatto into anura/modules/
+
+when installing the dependencies, remove that libboost-filesystem-dev because it says errors
+(libboost-filesystem-dev : depends on: libboost-filesystem1.54-dev but shouldnt be installed)
+
+if you don't have it yet, add following line to ~/.bashrc
+alias mache='make -j $(nproc || sysctl -n hw.ncpu || echo 2)'
+it's from freeminer, it automatically detects core counts
+
+cd into anura/ and run $ mache
