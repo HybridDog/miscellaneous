@@ -1,0 +1,12 @@
+
+Update command list from this folder:
+$ sh akomfort_update.sh  > generated_commands
+
+
+Download modpack:
+$ curl -s https://raw.githubusercontent.com/HybridDog/miscellaneous/master/txt/akomfort_modpack/modpack_dl.sh | bash
+
+
+Get git-free modpack zip and 7z:
+download modpack
+$ find -iname ".git" | xargs -P0 -L1 trash; zip -r -q akomfort.zip akomfort; 7zip akomfort
