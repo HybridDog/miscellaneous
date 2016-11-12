@@ -33,7 +33,7 @@ show_full_cmd() {
 	cd $1
 	clone_cmd=$(show_clone_cmd)
 	cd ..
-	echo "if [ -e $1 ] ; then (cd $1; git pull); else $clone_cmd; fi"
+	echo "if [ -e $1 ] ; then (cd $1; git pull); else $clone_cmd; echo \"$1 cloned.\"; fi"
 }
 
 output_commands() {
