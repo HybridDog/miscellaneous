@@ -11,4 +11,4 @@ $ curl -s https://raw.githubusercontent.com/HybridDog/miscellaneous/master/txt/a
 
 Get git-free modpack zip and 7z:
 download modpack
-$ find -iname ".git" | xargs -P0 -L1 trash; zip -r -q akomfort.zip akomfort; p7zip akomfort
+$ find -iname ".git*" | xargs -P0 -L1 trash; zip -r -q akomfort.zip akomfort; p7zip akomfort
