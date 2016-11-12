@@ -23,7 +23,7 @@ show_branch() {
 }
 
 show_clone_cmd() {
-	echo -n "git clone --single-branch -b "
+	echo -n "git clone --depth 1 --single-branch -b "
 	show_branch
 	echo -n " "
 	show_url

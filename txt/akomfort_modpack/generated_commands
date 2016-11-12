@@ -1,26 +1,26 @@
-if [ -e bookmarks/ ] ; then (cd bookmarks/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/bookmarks; echo "bookmarks/ cloned."; fi
-if [ -e builtin_item/ ] ; then (cd builtin_item/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/builtin_item; echo "builtin_item/ cloned."; fi
-if [ -e cave_lighting/ ] ; then (cd cave_lighting/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/cave_lighting; echo "cave_lighting/ cloned."; fi
-if [ -e chatcommand_delays/ ] ; then (cd chatcommand_delays/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/chatcommand_delays.git; echo "chatcommand_delays/ cloned."; fi
-if [ -e command_tool/ ] ; then (cd command_tool/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/command_tool.git; echo "command_tool/ cloned."; fi
-if [ -e drippingwater/ ] ; then (cd drippingwater/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/drippingwater.git; echo "drippingwater/ cloned."; fi
-if [ -e falling_extras/ ] ; then (cd falling_extras/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/falling_extras; echo "falling_extras/ cloned."; fi
-if [ -e function_delayer/ ] ; then (cd function_delayer/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/function_delayer; echo "function_delayer/ cloned."; fi
-if [ -e gbpinvisible/ ] ; then (cd gbpinvisible/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/gbpinvisible.git; echo "gbpinvisible/ cloned."; fi
-if [ -e giveme_completion/ ] ; then (cd giveme_completion/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/giveme_completion; echo "giveme_completion/ cloned."; fi
-if [ -e item_drop/ ] ; then (cd item_drop/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/item_drop; echo "item_drop/ cloned."; fi
-if [ -e linemaker/ ] ; then (cd linemaker/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/linemaker; echo "linemaker/ cloned."; fi
-if [ -e luacmd/ ] ; then (cd luacmd/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/luacmd; echo "luacmd/ cloned."; fi
-if [ -e misstairs/ ] ; then (cd misstairs/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/misstairs; echo "misstairs/ cloned."; fi
-if [ -e more_chatcommands/ ] ; then (cd more_chatcommands/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/more_chatcommands; echo "more_chatcommands/ cloned."; fi
-if [ -e moss/ ] ; then (cd moss/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/moss; echo "moss/ cloned."; fi
-if [ -e outgame_intervention/ ] ; then (cd outgame_intervention/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/outgame_intervention; echo "outgame_intervention/ cloned."; fi
-if [ -e plantlike_leaves/ ] ; then (cd plantlike_leaves/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/plantlike_leaves; echo "plantlike_leaves/ cloned."; fi
-if [ -e replacer/ ] ; then (cd replacer/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/replacer; echo "replacer/ cloned."; fi
-if [ -e rotten_papyrus/ ] ; then (cd rotten_papyrus/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/rotten_papyrus; echo "rotten_papyrus/ cloned."; fi
-if [ -e superpick/ ] ; then (cd superpick/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/superpick; echo "superpick/ cloned."; fi
-if [ -e treecapitator/ ] ; then (cd treecapitator/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/treecapitator; echo "treecapitator/ cloned."; fi
-if [ -e unified_inventory/ ] ; then (cd unified_inventory/; git pull); else git clone --single-branch -b hversion https://github.com/HybridDog/unified_inventory; echo "unified_inventory/ cloned."; fi
-if [ -e vector_extras/ ] ; then (cd vector_extras/; git pull); else git clone --single-branch -b master https://github.com/HybridDog/vector_extras; echo "vector_extras/ cloned."; fi
-if [ -e wield3d/ ] ; then (cd wield3d/; git pull); else git clone --single-branch -b master https://github.com/stujones11/wield3d; echo "wield3d/ cloned."; fi
+if [ -e bookmarks/ ] ; then (cd bookmarks/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/bookmarks; echo "bookmarks/ cloned."; fi
+if [ -e builtin_item/ ] ; then (cd builtin_item/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/builtin_item; echo "builtin_item/ cloned."; fi
+if [ -e cave_lighting/ ] ; then (cd cave_lighting/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/cave_lighting; echo "cave_lighting/ cloned."; fi
+if [ -e chatcommand_delays/ ] ; then (cd chatcommand_delays/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/chatcommand_delays.git; echo "chatcommand_delays/ cloned."; fi
+if [ -e command_tool/ ] ; then (cd command_tool/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/command_tool.git; echo "command_tool/ cloned."; fi
+if [ -e drippingwater/ ] ; then (cd drippingwater/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/drippingwater.git; echo "drippingwater/ cloned."; fi
+if [ -e falling_extras/ ] ; then (cd falling_extras/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/falling_extras; echo "falling_extras/ cloned."; fi
+if [ -e function_delayer/ ] ; then (cd function_delayer/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/function_delayer; echo "function_delayer/ cloned."; fi
+if [ -e gbpinvisible/ ] ; then (cd gbpinvisible/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/gbpinvisible.git; echo "gbpinvisible/ cloned."; fi
+if [ -e giveme_completion/ ] ; then (cd giveme_completion/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/giveme_completion; echo "giveme_completion/ cloned."; fi
+if [ -e item_drop/ ] ; then (cd item_drop/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/item_drop; echo "item_drop/ cloned."; fi
+if [ -e linemaker/ ] ; then (cd linemaker/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/linemaker; echo "linemaker/ cloned."; fi
+if [ -e luacmd/ ] ; then (cd luacmd/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/luacmd; echo "luacmd/ cloned."; fi
+if [ -e misstairs/ ] ; then (cd misstairs/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/misstairs; echo "misstairs/ cloned."; fi
+if [ -e more_chatcommands/ ] ; then (cd more_chatcommands/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/more_chatcommands; echo "more_chatcommands/ cloned."; fi
+if [ -e moss/ ] ; then (cd moss/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/moss; echo "moss/ cloned."; fi
+if [ -e outgame_intervention/ ] ; then (cd outgame_intervention/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/outgame_intervention; echo "outgame_intervention/ cloned."; fi
+if [ -e plantlike_leaves/ ] ; then (cd plantlike_leaves/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/plantlike_leaves; echo "plantlike_leaves/ cloned."; fi
+if [ -e replacer/ ] ; then (cd replacer/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/replacer; echo "replacer/ cloned."; fi
+if [ -e rotten_papyrus/ ] ; then (cd rotten_papyrus/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/rotten_papyrus; echo "rotten_papyrus/ cloned."; fi
+if [ -e superpick/ ] ; then (cd superpick/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/superpick; echo "superpick/ cloned."; fi
+if [ -e treecapitator/ ] ; then (cd treecapitator/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/treecapitator; echo "treecapitator/ cloned."; fi
+if [ -e unified_inventory/ ] ; then (cd unified_inventory/; git pull); else git clone --depth 1 --single-branch -b hversion https://github.com/HybridDog/unified_inventory; echo "unified_inventory/ cloned."; fi
+if [ -e vector_extras/ ] ; then (cd vector_extras/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/HybridDog/vector_extras; echo "vector_extras/ cloned."; fi
+if [ -e wield3d/ ] ; then (cd wield3d/; git pull); else git clone --depth 1 --single-branch -b master https://github.com/stujones11/wield3d; echo "wield3d/ cloned."; fi
 touch modpack.txt
