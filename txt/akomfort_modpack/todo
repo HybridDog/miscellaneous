@@ -1,44 +1,8 @@
 Add info about mods etc:
 additional info at german karsthafen topic
 
-bookmarks: adds teleportation station chatcommands (/go, /listgo etc.)
-builtin_item: my version of the builtin_item mod, it adds features to dropped items
-item_drop: my version of the item_drops mod, it makes player automatically pick up dropped items
-cave_lighting: command to light dark places with torches automatically
-chatcommand_delays: If a chat command takes long, tell how much time it was
-command_tool: A tool which executes configured chatcommand(s) when clicking
-drippingwater: Adds decorative visual and audible water and lava drops.
-falling_extras: Adds features to falling sand/gravel/etc. objects.
-gbpinvisible: Adds the possibility to become invisible to secretly watch other players.
-giveme_completion: makes the giveme much more convenient
-linemaker: A tool with which you can make lines of nodes without placing each one manually
-luacmd: Adds the lua chatcommand (a imo much better version than the one of worldedit)
-misstairs: Various small changes of default minetest and minetest_game, e.g. inconsistent papyrus heights
-more_chatcommands: Adds convenient chatcommands, such as giveall.
-moss: Makes selected nodes become mossy when they are in water and near air and have non-mossy ones next them.
-outgame_intervention: Automatically loads a file from the worldpath and executes it if present.
-plantlike_leaves: Uses plantlike drawtype and degrotate for leaves nodes.
-replacer: My version of the replacer mod, it allows e.g. replacing a wall of nodes at once.
-rotten_papyrus: Makes papyri rot and dry if they can't grow.
-superpick: A tool which allows immediate digging and getting information about a position.
-treecapitator: Automatically chop whole trees if digging one trunk
-unified_inventory: My version of the ui mod, it allows shift clicking to quickly trash items in creative mode.
-wield3d: Shows the currently wielded item to other players.
-vector_extras: Adds more vector helper functions for mods
-function_delayer: Kind of scheduler for mods, e.g. explosions
-
-The information is very scarce, click the links for more information.
-The mods use privileges, e.g. cave_lighting allows only privileged players to autolight caves.
-This modpack consists of the mods I personally use for almost every world.
-They imo load quickly and are useful for more convenient playing and developing mods.
-
-
 Update command list from this folder:
 $ sh akomfort_update.sh  > generated_commands
-
-
-Download modpack:
-$ curl -s https://raw.githubusercontent.com/HybridDog/miscellaneous/master/txt/akomfort_modpack/modpack_dl.sh | bash
 
 
 Get git-free modpack zip and 7z:

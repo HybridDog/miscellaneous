@@ -1,0 +1,43 @@
+[Modpack] mods I use [akomfort]
+
+If you want to get or update the modpack, you can use this command (recommended):
+[code]$ curl -s https://raw.githubusercontent.com/HybridDog/miscellaneous/master/txt/akomfort_modpack/modpack_dl.sh | bash[/code]
+The modpack is then put into your current folder.
+
+Alternatively, you can download the attached, usually out of date, version (below).
+Sorry, the archives are slightly bigger than a MB.
+
+
+About this:
+
+This modpack consists of the mods I personally use for almost every world.
+They imo load quickly and are useful for more convenient playing and developing mods.
+
+[url=https://forum.minetest.net/viewtopic.php?id=2321]bookmarks[/url]: adds teleportation station chatcommands (/go, /listgo etc.)
+#[url=https://forum.minetest.net/viewtopic.php?f=9&t=10271]builtin_item[/url]: my version of the builtin_item mod, it adds features to dropped items
+[url=https://forum.minetest.net/viewtopic.php?f=9&t=10319]item_drop[/url]: my version of the item_drops mod, it makes player automatically pick up dropped items
+[url=https://forum.minetest.net/viewtopic.php?f=9&t=12616]cave_lighting[/url]: command to light dark places with torches automatically
+[url=https://forum.minetest.net/viewtopic.php?f=9&t=14595]chatcommand_delays[/url]: If a chat command takes long, tell how much time it was
+#[url=https://github.com/HybridDog/command_tool]command_tool[/url]: A tool which executes configured chatcommand(s) when clicking
+[url=https://forum.minetest.net/viewtopic.php?f=11&t=1688]drippingwater[/url]: Adds decorative visual and audible water and lava drops.
+#[url=https://forum.minetest.net/viewtopic.php?f=9&t=12244]falling_extras[/url]: Adds features to falling sand/gravel/etc. objects.
+[url=https://forum.minetest.net/viewtopic.php?f=9&t=13508]gbpinvisible[/url]: Adds the possibility to become invisible to secretly watch other players.
+[url=https://forum.minetest.net/viewtopic.php?f=9&t=13266]giveme_completion[/url]: makes the giveme much more convenient
+[url=https://forum.minetest.net/viewtopic.php?f=9&t=14049]linemaker[/url]: A tool with which you can make lines of nodes without placing each one manually
+[url=https://forum.minetest.net/viewtopic.php?f=11&t=9671&p=188851]luacmd[/url]: Adds the lua chatcommand (a imo much better version than the one of worldedit)
+#[url=https://github.com/HybridDog/misstairs/]misstairs[/url]: Various small changes of default minetest and minetest_game, e.g. inconsistent papyrus heights
+[url=https://forum.minetest.net/viewtopic.php?f=9&t=13997]more_chatcommands[/url]: Adds convenient chatcommands, such as giveall.
+#[url=https://forum.minetest.net/viewtopic.php?f=9&t=10262]moss[/url]: Makes selected nodes become mossy when they are in water and near air and have non-mossy ones next them.
+[url=https://forum.minetest.net/viewtopic.php?f=11&t=10809]outgame_intervention[/url]: Automatically loads a file from the worldpath and executes it if present.
+[url=https://forum.minetest.net/viewtopic.php?f=9&t=13433]plantlike_leaves[/url]: Uses plantlike drawtype and degrotate for leaves nodes if enabled.
+#[url=https://github.com/hybriddog/replacer]replacer[/url]: My version of the replacer mod, it allows e.g. replacing a wall of nodes at once.
+#[url=https://forum.minetest.net/viewtopic.php?f=9&t=7147]rotten_papyrus[/url]: Makes papyri rot and dry if they can't grow.
+#[url=https://forum.minetest.net/viewtopic.php?p=51650#p51650]superpick[/url]: A tool which allows immediate digging and getting information about a position.
+[url=https://forum.minetest.net/viewtopic.php?f=11&t=4772]treecapitator[/url]: Automatically chop whole trees if digging one trunk
+#[url=https://github.com/hybriddog/unified_inventory]unified_inventory[/url]: My version of the ui mod, it allows shift clicking to quickly trash items in creative mode.
+[url=https://forum.minetest.net/viewtopic.php?f=11&t=6407]wield3d[/url]: Shows the currently wielded item to other players.
+#[url=https://forum.minetest.net/viewtopic.php?f=9&t=8533]vector_extras[/url]: Adds more vector helper functions for mods
+[url=https://github.com/HybridDog/function_delayer]function_delayer[/url]: Kind of scheduler for mods, e.g. explosions
+
+The information is relatively scarce, click the links for more information.
+The mods use privileges, e.g. cave_lighting allows only privileged players to autolight caves.
