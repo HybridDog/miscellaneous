@@ -1,0 +1,12 @@
+Minetest with my PRs applied:
+
+Merge these branches:
+dependencies_activation
+normalmap_modifier_fix
+logfix_2
+datastru
+readonly_worlds
+log_bt
+interact_less_block_sends2
+
+Also, dependencies_omit if there were no conflicts
