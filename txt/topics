@@ -1,4 +1,4 @@
-
+https://forum.minetest.net/viewtopic.php?f=9&t=10263
 [Mod] Fire extinguisher [extinguisher]
 
 Hold LMB to spray foam, which disallowes fire next to it like water does
@@ -13,47 +13,6 @@ This mod makes poisonivy useful for something and it isn't the first mod adding 
 [img]http://i.imgur.com/GPKJYVK.png[/img]
 
 textures made with gimp
-
-If you got ideas or found bugs, please tell them to me.
-
---------------------------
-
-[Mod] Connected Chests (or double chests (or big chests)) [connected_chests]
-
-This mod allows making bigger default chests.
-Just hold shift and place a chest onto another one's side.
-This is not the first mod which adds big chests.
-
-[b]Depends:[/b] default
-[b]License:[/b] WTFPL (maybe except the chest textures taken from default)
-[b]Download:[/b] [url=https://github.com/HybridDog/connected_chests/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/connected_chests/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/connected_chests]connected_chests[/url]
-
-[img]http://wiki.minetest.net/images/d/d1/Connected_chest.png[/img]
-
-textures edited with gimp
-
-If you got ideas or found bugs, please tell them to me.
-
---------------------------
---------------------------
-
-[Mod] lkjoel's nether mod reworked [nether]
-
-Just make a portal like the one of PilzAdam if you enter the nether the first time.
-When you arrived, type "/nether_help" to get information about stuff like recipes.
-[url=https://forum.minetest.net/viewtopic.php?pid=21486]lkjoel's version[/url]
-
-[b]Depends:[/b] default, glow, riesenpilz, stairs
-[b]License:[/b] GPLv3, WTFPL for the changes
-[b]Download:[/b] [url=https://github.com/HybridDog/minetest-nether/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/minetest-nether/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/minetest-nether]minetest-nether[/url]
-
-[img]http://i.imgur.com/xAdSQT4.png[/img]
-[img]http://i.imgur.com/h5bB4Q3.png[/img]
-
-Thanks to sss and WSDguy2014 for reporting bugs and ideas (e.g. the nether forest).
-textures edited with gimp
 
 If you got ideas or found bugs, please tell them to me.
 
@@ -76,7 +35,7 @@ If you got ideas or found bugs, please tell them to me.
 
 --------------------------
 --------------------------
-
+https://forum.minetest.net/viewtopic.php?f=9&t=10270
 [Mod] Small Paths [small_paths]
 
 This mod didn't work correctly but it doesn't cause lag and I think it's a bit decorative.
@@ -91,14 +50,16 @@ The paths with a short length, click onto it for full size:
 
 --------------------------
 --------------------------
-
+https://forum.minetest.net/viewtopic.php?f=9&t=10271
 [Mod] PilzAdam's builtin_item mod reworked [builtin_item]
 
 I edited [url=https://forum.minetest.net/viewtopic.php?id=3188]PilzAdam's builtin_item mod[/url] that it doesn't override the whole item and so it supports the newest item definition.
-Using this one instead of PilzAdam's version together with the item_drop mod fixes the double pick up cheat but it also requires a new item_drop mod (else you aren't able to drop items):
-https://github.com/HybridDog/zegaton_game/tree/master/mods/item_drop
+This mod is compatible with the new item_drop mod: https://github.com/minetest-mods/item_drop
 
-I changed a bit the behaviour of items being moved by water too, test it if you want to know the differences.
+Features:
+* Throwing items into lava destroys them
+* Flowing water moves dropped items
+* Items make a sound when they land on the floor
 
 [b]License:[/b] WTFPL
 [b]Download:[/b] [url=https://github.com/HybridDog/builtin_item/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/builtin_item/archive/master.tar.gz]tar.gz[/url]
@@ -124,7 +85,7 @@ By default, so it looks like if the rules are viewed with interact.
 
 --------------------------
 --------------------------
-
+https://forum.minetest.net/viewtopic.php?f=9&t=10273
 [Mod] Teleport bugfix [stay_inside]
 
 Some months ago it begun: I noticed that sometimes I become teleported somewhere far outside the map.
@@ -141,7 +102,7 @@ If you got ideas or found bugs, please tell them to me.
 
 --------------------------
 --------------------------
-
+https://forum.minetest.net/viewtopic.php?f=9&t=10274
 [Mod] Nodebox Creator [nodebox_creator]
 
 The nodebox generator was too … for me, so I made this mod, where I can change them by using the keyboard.
@@ -161,7 +122,7 @@ If you got ideas or found bugs, please tell them to me.
 
 --------------------------
 --------------------------
-
+https://forum.minetest.net/viewtopic.php?f=9&t=10275
 [Mod] Grass biome [grass]
 
 This mod generates grass at some places fairly selden.
@@ -196,7 +157,7 @@ If you got ideas or found bugs, please tell them to me.
 
 --------------------------
 --------------------------
-
+https://forum.minetest.net/viewtopic.php?f=9&t=10268
 [Mod] cisoun's Conifers mod reworked [conifers]
 
 I edited [url=https://forum.minetest.net/viewtopic.php?id=1453]cisoun's Conifers mod[/url] to use vmanip and in comparison to VaE I didn't changed the conifers' structures and kept their textures.
@@ -213,7 +174,7 @@ If you got ideas or found bugs, please tell them to me.
 
 --------------------------
 --------------------------
-
+https://forum.minetest.net/viewtopic.php?f=9&t=10276
 [Mod] nodes spawning houses [home_builder]
 
 This mod is fairly unfinished.
@@ -232,7 +193,7 @@ If you got ideas or found bugs, please tell them to me.
 
 --------------------------
 --------------------------
-
+https://forum.minetest.net/viewtopic.php?f=9&t=10267
 [Mod] Aqua's titanium mod edited [titanium]
 
 Because of broken download links, I put [url=https://forum.minetest.net/viewtopic.php?f=11&t=3113#p43290]Aqua's titanium mod[/url] with history to github and changed the ore texture.
@@ -248,5 +209,54 @@ If you got ideas or found bugs, please tell them to me.
 
 --------------------------
 
+texture packs
+
+grid textures
+https://forum.minetest.net/viewtopic.php?f=4&t=3618
+
+my TP
+https://forum.minetest.net/viewtopic.php?f=4&t=4632
+
+2c4pTP
+https://forum.minetest.net/viewtopic.php?f=4&t=5317
+
+bright textures
+https://forum.minetest.net/viewtopic.php?f=4&t=4684
+
+Winter TP
+https://forum.minetest.net/viewtopic.php?f=4&t=3946
+
+TP converter
+https://forum.minetest.net/viewtopic.php?f=14&t=5418
+https://forum.minetest.net/viewtopic.php?f=4&t=5122
 
 
+haven mod
+https://forum.minetest.net/viewtopic.php?f=9&t=3910
+
+vulkan
+https://forum.minetest.net/viewtopic.php?f=12&t=5583
+
+lavacooling
+https://forum.minetest.net/viewtopic.php?f=13&t=3806
+
+connected textures
+https://forum.minetest.net/viewtopic.php?f=9&t=6735
+
+antiguest
+https://forum.minetest.net/viewtopic.php?f=9&t=7008
+
+rotten_papyrus
+https://forum.minetest.net/viewtopic.php?f=9&t=7147
+
+diamonds and steel
+https://forum.minetest.net/viewtopic.php?f=9&t=7146
+
+shadows
+https://forum.minetest.net/viewtopic.php?f=9&t=8642
+
+falling_extras
+https://forum.minetest.net/viewtopic.php?f=9&t=12244
+
+stronger_water
+https://forum.minetest.net/viewtopic.php?f=9&t=10318
