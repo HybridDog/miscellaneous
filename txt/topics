@@ -1,73 +1,3 @@
-https://forum.minetest.net/viewtopic.php?f=9&t=10263
-[Mod] Fire extinguisher [extinguisher]
-
-Hold LMB to spray foam, which disallowes fire next to it like water does
-Place the extinguisher next to fire and punch it with a torch to let it explode, replace all flames with foam nodes and replace the placed extinguisher with a broken one which drops stuff of the craft recipe
-This mod makes poisonivy useful for something and it isn't the first mod adding a fire extinguisher.
-
-[b]Depends:[/b] bucket, default, poisonivy, vector_extras
-[b]License:[/b] WTFPL
-[b]Download:[/b] [url=https://github.com/HybridDog/extinguisher/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/extinguisher/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/extinguisher]extinguisher[/url]
-
-[img]http://i.imgur.com/GPKJYVK.png[/img]
-
-textures made with gimp
-
-If you got ideas or found bugs, please tell them to me.
-
---------------------------
---------------------------
-
-[Mod] Word Translation [word_translation]
-
-The Word Translation mod translates each word of item descriptions (if the word is available) (words seperated by " ") and currently only supports one language.
-But it's compatible with the other known translation mods (vortoj, intllib) and is able to translate whole description strings instead of each of their words, too.
-
-[b]License:[/b] WTFPL
-[b]Download:[/b] [url=https://github.com/HybridDog/word_translation/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/word_translation/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/word_translation]word_translation[/url]
-
-the cursor is invisible in minetest formspec screenshots…
-[img]http://i.imgur.com/0A4of2i.png[/img]
-
-If you got ideas or found bugs, please tell them to me.
-
---------------------------
---------------------------
-https://forum.minetest.net/viewtopic.php?f=9&t=10270
-[Mod] Small Paths [small_paths]
-
-This mod didn't work correctly but it doesn't cause lag and I think it's a bit decorative.
-
-[b]Depends:[/b] default, vector_extras
-[b]License:[/b] WTFPL
-[b]Download:[/b] [url=https://github.com/HybridDog/small_paths/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/small_paths/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/small_paths]small_paths[/url]
-
-The paths with a short length, click onto it for full size:
-[img]https://cloud.githubusercontent.com/assets/3192173/4175436/520a437c-35d2-11e4-994d-e282a9e818a1.png[/img]
-
---------------------------
---------------------------
-https://forum.minetest.net/viewtopic.php?f=9&t=10271
-[Mod] PilzAdam's builtin_item mod reworked [builtin_item]
-
-I edited [url=https://forum.minetest.net/viewtopic.php?id=3188]PilzAdam's builtin_item mod[/url] that it doesn't override the whole item and so it supports the newest item definition.
-This mod is compatible with the new item_drop mod: https://github.com/minetest-mods/item_drop
-
-Features:
-* Throwing items into lava destroys them
-* Flowing water moves dropped items
-* Items make a sound when they land on the floor
-
-[b]License:[/b] WTFPL
-[b]Download:[/b] [url=https://github.com/HybridDog/builtin_item/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/builtin_item/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/builtin_item]builtin_item[/url]
-
-If you got ideas or found bugs, please tell them to me.
-
---------------------------
 --------------------------
 
 [Mod] A mod adding a way to give players interact. [rulesaccept]
@@ -84,59 +14,6 @@ By default, so it looks like if the rules are viewed with interact.
 [img]http://i.imgur.com/R9Aq3QM.jpg[/img]
 
 --------------------------
---------------------------
-https://forum.minetest.net/viewtopic.php?f=9&t=10273
-[Mod] Teleport bugfix [stay_inside]
-
-Some months ago it begun: I noticed that sometimes I become teleported somewhere far outside the map.
-Before I never had this problem.
-This simple mod teleports players back to their previous position if they're too far outside of the map.
-
-[b]License:[/b] WTFPL
-[b]Download:[/b] [url=https://github.com/HybridDog/stay_inside/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/stay_inside/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/stay_inside]stay_inside[/url]
-
-[img]http://i.imgur.com/j0huwhT.png[/img]
-
-If you got ideas or found bugs, please tell them to me.
-
---------------------------
---------------------------
-https://forum.minetest.net/viewtopic.php?f=9&t=10274
-[Mod] Nodebox Creator [nodebox_creator]
-
-The nodebox generator was too … for me, so I made this mod, where I can change them by using the keyboard.
-This mod adds a node (not craftable) where someone can write coords of nodeboxes inside.
-Nodeboxes can be imported (by pasting it into the multiline text field which currently only works on windows, I think) and exported.
-
-[b]License:[/b] WTFPL
-[b]Download:[/b] [url=https://github.com/HybridDog/nodebox_creator/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/nodebox_creator/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/nodebox_creator]nodebox_creator[/url]
-
-Its nodebox is made with a nodebox creator node.
-[img]http://i.imgur.com/nijz0g9.png[/img]
-
-[img]http://i.imgur.com/PuSYmRE.png[/img]
-
-If you got ideas or found bugs, please tell them to me.
-
---------------------------
---------------------------
-https://forum.minetest.net/viewtopic.php?f=9&t=10275
-[Mod] Grass biome [grass]
-
-This mod generates grass at some places fairly selden.
-I made it because I thought this was missing in minetest.
-
-[b]Depends:[/b] default
-[b]License:[/b] WTFPL
-[b]Download:[/b] [url=https://github.com/HybridDog/grass/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/grass/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/grass]grass[/url]
-
-[img]http://i.imgur.com/pVLZbYW.jpg[/img]
-
-If you got ideas or found bugs, please tell them to me.
-
 --------------------------
 --------------------------
 
@@ -157,74 +34,11 @@ If you got ideas or found bugs, please tell them to me.
 
 --------------------------
 --------------------------
-https://forum.minetest.net/viewtopic.php?f=9&t=10268
-[Mod] cisoun's Conifers mod reworked [conifers]
-
-I edited [url=https://forum.minetest.net/viewtopic.php?id=1453]cisoun's Conifers mod[/url] to use vmanip and in comparison to VaE I didn't changed the conifers' structures and kept their textures.
-I edited this mod after I missed these trees since the old globis server disappeared.
-
-[b]Depends:[/b] default
-[b]License:[/b] WTFPL
-[b]Download:[/b] [url=https://github.com/HybridDog/conifers/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/conifers/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/conifers]conifers[/url]
-
-[img]http://i.imgur.com/NNluP4J.png[/img]
-
-If you got ideas or found bugs, please tell them to me.
-
---------------------------
---------------------------
-https://forum.minetest.net/viewtopic.php?f=9&t=10276
-[Mod] nodes spawning houses [home_builder]
-
-This mod is fairly unfinished.
-It adds nodes which are used to build houses which can't be made by just placing a schematic, automatically.
-Change the nodes being used for the houses by using keys together and clicking on the ones you want.
-Currently it supports "Huts", which I often build (the reason for being not yet finished), and I often try to fix problems. Now (20140929) I need to fix the function which removes unwanted positions from a table.
-
-[b]Depends:[/b] vector_extras
-[b]License:[/b] WTFPL
-[b]Download:[/b] [url=https://github.com/HybridDog/home_builder/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/home_builder/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/home_builder]home_builder[/url]
-
-A video: [url=https://vimeo.com/107845724]107845724[/url]
-
-If you got ideas or found bugs, please tell them to me.
-
---------------------------
---------------------------
-https://forum.minetest.net/viewtopic.php?f=9&t=10267
-[Mod] Aqua's titanium mod edited [titanium]
-
-Because of broken download links, I put [url=https://forum.minetest.net/viewtopic.php?f=11&t=3113#p43290]Aqua's titanium mod[/url] with history to github and changed the ore texture.
-
-[b]Depends:[/b] default
-[b]License:[/b] WTFPL
-[b]Download:[/b] [url=https://github.com/HybridDog/titanium/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/titanium/archive/master.tar.gz]tar.gz[/url]
-[b]github:[/b] [url=https://github.com/HybridDog/titanium]titanium[/url]
-
-[img]http://i.imgur.com/gtAfZ8w.png[/img]
-
-If you got ideas or found bugs, please tell them to me.
-
---------------------------
 
 texture packs
 
 grid textures
 https://forum.minetest.net/viewtopic.php?f=4&t=3618
-
-my TP
-https://forum.minetest.net/viewtopic.php?f=4&t=4632
-
-2c4pTP
-https://forum.minetest.net/viewtopic.php?f=4&t=5317
-
-bright textures
-https://forum.minetest.net/viewtopic.php?f=4&t=4684
-
-Winter TP
-https://forum.minetest.net/viewtopic.php?f=4&t=3946
 
 TP converter
 https://forum.minetest.net/viewtopic.php?f=14&t=5418
@@ -255,8 +69,29 @@ https://forum.minetest.net/viewtopic.php?f=9&t=7146
 shadows
 https://forum.minetest.net/viewtopic.php?f=9&t=8642
 
-falling_extras
-https://forum.minetest.net/viewtopic.php?f=9&t=12244
-
 stronger_water
 https://forum.minetest.net/viewtopic.php?f=9&t=10318
+
+missing image: superpick
+https://forum.minetest.net/viewtopic.php?p=51650#p51650
+
+
+
+--------------------------
+
+[Closed] Word Translation [word_translation]
+
+The Word Translation mod translates each word of item descriptions (if the word is available) (words seperated by " ") and currently only supports one language.
+But it's compatible with the other known translation mods (vortoj, intllib) and is able to translate whole description strings instead of each of their words, too.
+This mod has been aborted because translating words individually can give wrong translations.
+
+[b]License:[/b] WTFPL
+[b]Download:[/b] [url=https://github.com/HybridDog/word_translation/archive/master.zip]zip[/url], [url=https://github.com/HybridDog/word_translation/archive/master.tar.gz]tar.gz[/url]
+[b]github:[/b] [url=https://github.com/HybridDog/word_translation]word_translation[/url]
+
+the cursor is invisible in minetest formspec screenshots…
+[img]http://i.imgur.com/0A4of2i.png[/img]
+
+If you got ideas or found bugs, please tell them to me.
+
+--------------------------
