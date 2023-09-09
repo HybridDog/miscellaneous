@@ -3,45 +3,57 @@
 #delete existing links
 #trash *.png
 
-# the path to the mc texture pack folder
+while [[ "$#" -gt 0 ]]; do
+	case $1 in
+		--show-failed-links)
+			show_failed_links=1
+			shift
+			;;
+		*)
+			echo "Unknown parameter: $1" >&2
+			exit 1
+			;;
+	esac
+	shift
+done
+
+
+# Path to the Minecraft texture pack folder
 mctp_path=./mctp
 
-# the path to the textures
+# Path to the textures
 textures_path=${mctp_path}/assets/minecraft/textures
 
-if [ ! -d $textures_path ]; then :
-	echo "error: the textures folder at $textures_path seems to be missing"
-	# aborts if texture pack is not available
+if [[ ! -d $textures_path ]]; then
+	echo "I could not find the textures folder at ${textures_path}." >&2
 	exit
 fi
-
-# the command used for linking
-link_file="ln -r -s"
 
 # the linking function
 link() {
 	in=${1}.png
 	out=${2}.png
-	if [ -e $in ] && [ ! -L $out ]; then :
-		$link_file $in $out
+	if [[ -e $in ]] && [[ ! -L $out ]]; then
+		ln --relative --symbolic "$in" "$out"
+	fi
+	if [[ -n $show_failed_links ]] && [[ ! -L $out ]]; then
+		echo "I could not link [93m${in}[m to [93m${out}[m" >&2
 	fi
 }
 
 # a linking function for blocks
 link_block() {
-	#echo "link_block $1 $2"
-	link ${textures_path}/block/$1 $2
+	link "${textures_path}/block/$1" "$2"
 }
 
 # a linking function for items
 link_item() {
-	#echo "link_item $1 $2"
-	link ${textures_path}/item/$1 $2
+	link "${textures_path}/item/$1" "$2"
 }
 
-echo "linking textures…"
+echo "Linking textures…"
 
-link ${mctp_path}/pack screenshot
+link "${mctp_path}/pack" screenshot
 
 link_item apple default_apple
 link_item arrow throwing_arrow
@@ -295,8 +307,8 @@ link_block white_wool wool_white
 link_block yellow_wool wool_yellow
 link_block furnace_top default_furnace_bottom
 
-echo "done!"
-echo "If wou want to delete them: trash *.png"
+echo "Done!"
+echo "A command to delete the .png file links: trash ./*.png"
 
 
 #stuff taken from:
